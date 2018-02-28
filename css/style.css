@@ -16,7 +16,7 @@ ul{
 
 /* Header */
 header{
-  background: #353637;
+  background: #500000;
   color: #ffffff;
   padding-top: 30px;
   min-height: 70px;
@@ -44,7 +44,7 @@ header nav{
   margin-top: 10px;
 }
 header .highlight, header .current a{
-  color: #32a0c2;
+  color: #00B233;
   font-weight: bold;
 }
 header a:hover{
