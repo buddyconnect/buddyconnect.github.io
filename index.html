@@ -1,67 +1,151 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="BuddyConnect">
-    <meta name="author" content="Team2">
-    <title>BuddyConnect | Welcome</title>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <div id="site-topmenu">
-         
-         </div>
-          <h1><i class="BuddyConnect Webdesign"></i> <span class="highlight">BuddyConnect</span> Web Design</h1>
-          
+    <!--This html displays the homepage for the website. -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="BuddyConnect">
+        <meta name="author" content="Team02">
+        <title>BuddyConnect | Welcome</title>
+        <link rel="stylesheet" href="Team02.css">
+    
+    </head>
+    
+    <body>
+        <!--This section displays the header for the website that contains our mascot, search button for easy naviagtion
+       and all the page links. -->  
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <img class="mascot" src="mascot.jpg" alt="AggiePal"> 
+                    <a href="Team02.html" class="logo">BuddyConnect</a>          
+                </div>
+    
+                <nav>
+                  <label for="show-menu" class="show-menu">Menu</label>
+                  <input type="checkbox" id="show-menu" role="button">
+                  <ul id="menu">
+                    <li class="current"><a href="Team02.html">Home</a></li>
+                    <li class="current"><a href="error.html">Events</a></li>
+                    <li class="current"><a href="error.html">Register</a></li>
+                    <li class="current"><a href="error.html">Login</a></li>
+                    <div class="dropdown">
+                      <li class="dropbtn">Helpful Links</li>
+                      <div class="dropdown-content">
+                        <a href="https://ecampus.tamu.edu/" target="_blank">e-Campus</a>
+                        <a href="https://howdy.tamu.edu/" target="_blank">Howdy</a>
+                        <a href="https://www.dineoncampus.com/tamu/" target="_blank">Dining</a>
+                        <a href="http://library.tamu.edu/" target="_blank">Tamu Library</a>
+                      </div>
+                    </div>
+                  </ul>
+                </nav>
+                
+        
+            </div>
+            
+        </header>
+        
+        <section id="showcase">
+          <div class="container">
+            <h1>Howdy! Welcome to Texas A&M University</h1>
+            <p>Help shall be provided for those who ask for help!.</p>
+          </div>
+        </section>
+        <!--This section displays the main content, that is, provides the basic introduction for the website. --> 
+        
+        <div class="about_us">
+            <div class="leftcolumn">
+                    <img class="mascot" src="mascot1.jpg" alt="AggiePal">           
+            </div>
+            <div class="rightcolumn">
+                <h1> &nbsp; &nbsp; &nbsp; About Us </h1>
+                <p style="text-align: left;">College Station is a home to thousands of Aggies. While a portion of them belong to the U.S and have family in and around, remaining would be those who had to travel thousands of miles from home to aspire their ambition in a new country. Despite being excited about starting the new phase in a new country, their minds will be stuffed up with thoughts on how to get started in the new place without any prior experience and suggestions. Buddy Connect aims at connecting all Aggies with their fellow mates thus helping everyone to get acclimatized to Aggieland and experience its rich culture. It will serve as a platform where freshers can get loads of information about the university and on how they can get settled to the student life within first few months of their start. They can simply browse through a variety of useful information like banking, bus routes, grocery shopping, restaurants, on-campus facilities, housing, tutoring, clubs, activities would be collaborated within this single application. As a critical feature, Aggies get to connect with buddies/mentors of their respective departments to gain help and knowledge about the course, department and of course, Aggieland experience. To create fun memories, Aggies can get to participate in events organized by certain event organizers and the buddies. With these features and an easy-to-use interface, Buddy Connect is assured to make the experience of Aggies in Aggieland a memorable one.</p>
+                <p>Our mascot-AggiePal is the face of Buddy Connect and personifies our website. Our brand helps to convey the friendliness and comfort to our audience. His smile and happy-go-lucky attitude help audience to connect and be hopeful of their new life at Aggieland. He creates trust with the audience which gives a very positive vibe to our website. AggiePal’s cartoonish style brings the simplicity and ease to the audience. His Gig’em gesture and an Aggie cap help the audience know about traditions at Texas A&M University in advance, this helps in building the excitement and surprise for our audience. AggiePal comes up with fun facts about Aggieland occasionally on the website which keeps the audience wondering about Aggieland. Our mascot helps to assure the audience that they will not be alone in Aggieland when they come here; they will always have people around to guide them along their journey. </p>
+            </div>
         </div>
-        <nav>
-          <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="register.html">Register</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="helpfullinks.html">Helpful Links</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <section id="showcase">
-      <div class="container">
-        <h1>Howdy! Welcome to Texas A&M</h1>
-        <p>Help shall be provided for those who ask for help!.</p>
-      </div>
-    </section>
+        
+        <!--This section displays the upcoming events for the website. --> 
+        
+        <div id="upcoming_events">
+            <h1>Upcoming Events</h1>
 
-      <section id="upcoming_events">
-      <div class="container">
-        <h1>Upcoming Events</h1>
-        <p>Free pizza at Evans on 2nd March 2018</p>
-      </div>
-    </section>
+            <div class="slideshow-container">
 
-      <section id="roadmap">
-      <div class="container">
-        <h1>Roadmap</h1>
-        <p>We will help you get through this!!!</p>
-      </div>
-    </section>
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="pizza.jpg">
+              <div class="text">Free Pizzas at Evans on March 5th</div>
+            </div>
 
-    <section id="newsletter">
-      <div class="container">
-        <h1>Contact us</h1>
-        <form action="">
-          <input type="email" placeholder="Enter your email address ... ">
-          <button type="submit" class="button_1">Submit</button>
-        </form>
-      </div>
-    </section>
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="silverTaps.jpg">
+              <div class="text">Silver Taps on March 6th</div>
+            </div>
 
-    <footer>
-      <p>Group 2-Project, Copyright &copy; 2018</p>
-    </footer>
-  </body>
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="Ice-cream-social.jpg">
+              <div class="text">Ice Cream Social on March 8th</div>
+            </div>
+
+            </div>
+            <br>
+
+            <div class="dots">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+        </div> 
+        <!--This section displays the contact information for the website. --> 
+
+        <section id="contact_us">
+            <h1>Contact Form</h1>
+            <div class="contactus_container">
+              
+                <label for="name" class="contact_label">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email id..">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:50px"></textarea>
+
+                <input type="submit" value="Submit" onclick="alert('Thank You!!')">
+
+            </div>
+        </section>
+         <!--This document displays the footer for the website that displays our team's copyright protection. --> 
+        <footer>
+          <p> &copy; 2018 Developed by Team 02</p>
+        </footer>
+        
+    </body>
+    
+    <script>
+        /* Javascript for automatic slide show of upcoming events */
+        
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+               slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
 </html>
