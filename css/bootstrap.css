@@ -1,9 +1,14 @@
+
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+@import url(../fonts/fontawesome/css/font-awesome.min.css);
+@import url(../fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css);
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9299,11 +9304,12 @@ input.invalid
    background: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
-    ),url('event-reg.jpg') no-repeat center center;
+    ),url('../images/event-reg.jpg') no-repeat center center;
   /*background: url('http://placehold.it/1920x400') center center no-repeat scroll;*/
     -webkit-background-size: cover;
     background-position: center;
    background-size: cover;
+    background-attachment: fixed;
     text-align: center;
 }
 
@@ -9412,4 +9418,58 @@ footer.form-footer{
     position: fixed;
     bottom:0;
     width:100%;
+}
+
+.feature-box {
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    margin: 0 auto 40px;
+}
+
+/* 8.2.2 Icon
+-------------------------------------------------------------------------- */
+.feature-box .box-icon {
+    float: left;
+    width: 90px;
+    height: 90px;
+    color: #ffffff;
+    font-size: 45px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    margin: 0 20px 15px 0;
+    background-color: #e14d43;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+.feature-box .box-icon i { line-height: 91px; }
+
+/* 8.2.3 Content
+-------------------------------------------------------------------------- */
+/* 8.2.3.1 Wrapper
+-------------------------------------------------------------------------- */
+.box-content { overflow: hidden; }
+
+/* 8.2.3.2 Title
+-------------------------------------------------------------------------- */
+.feature-box .box-title {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+    text-transform: capitalize;
+}
+
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: #ccc;
 }
